@@ -1,6 +1,6 @@
 //
-//  YLAutoThreadTests.m
-//  YLAutoThreadTests
+//  YLPermenantThreadTests.m
+//  YLPermenantThreadTests
 //
 //  Created by yl on 2020/1/10.
 //  Copyright © 2020 yl. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface YLAutoThreadTests : XCTestCase
+@interface YLPermenantThreadTests : XCTestCase
 
 @end
 
-@implementation YLAutoThreadTests
+@implementation YLPermenantThreadTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

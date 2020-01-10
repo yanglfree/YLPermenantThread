@@ -16,6 +16,7 @@
 		E121959423C85A2800575D0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E121959323C85A2800575D0E /* main.m */; };
 		E121959E23C85A2800575D0E /* YLAutoThreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E121959D23C85A2800575D0E /* YLAutoThreadTests.m */; };
 		E12195A923C85A2800575D0E /* YLAutoThreadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E12195A823C85A2800575D0E /* YLAutoThreadUITests.m */; };
+		E12195B823C85A3B00575D0E /* YLPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E12195B723C85A3B00575D0E /* YLPermenantThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E121957E23C85A2500575D0E /* YLAutoThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAutoThread.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E121957E23C85A2500575D0E /* YLPermenantThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLPermenantThread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E121958123C85A2500575D0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E121958223C85A2500575D0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E121958423C85A2500575D0E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -48,12 +49,14 @@
 		E121959023C85A2800575D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E121959223C85A2800575D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E121959323C85A2800575D0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E121959923C85A2800575D0E /* YLAutoThreadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLAutoThreadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E121959923C85A2800575D0E /* YLPermenantThreadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPermenantThreadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E121959D23C85A2800575D0E /* YLAutoThreadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAutoThreadTests.m; sourceTree = "<group>"; };
 		E121959F23C85A2800575D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E12195A423C85A2800575D0E /* YLAutoThreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLAutoThreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12195A423C85A2800575D0E /* YLPermenantThreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPermenantThreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12195A823C85A2800575D0E /* YLAutoThreadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAutoThreadUITests.m; sourceTree = "<group>"; };
 		E12195AA23C85A2800575D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12195B623C85A3B00575D0E /* YLPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPermenantThread.h; sourceTree = "<group>"; };
+		E12195B723C85A3B00575D0E /* YLPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPermenantThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +87,7 @@
 		E121957523C85A2500575D0E = {
 			isa = PBXGroup;
 			children = (
-				E121958023C85A2500575D0E /* YLAutoThread */,
+				E121958023C85A2500575D0E /* YLPermenantThread */,
 				E121959C23C85A2800575D0E /* YLAutoThreadTests */,
 				E12195A723C85A2800575D0E /* YLAutoThreadUITests */,
 				E121957F23C85A2500575D0E /* Products */,
@@ -94,14 +97,14 @@
 		E121957F23C85A2500575D0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E121957E23C85A2500575D0E /* YLAutoThread.app */,
-				E121959923C85A2800575D0E /* YLAutoThreadTests.xctest */,
-				E12195A423C85A2800575D0E /* YLAutoThreadUITests.xctest */,
+				E121957E23C85A2500575D0E /* YLPermenantThread.app */,
+				E121959923C85A2800575D0E /* YLPermenantThreadTests.xctest */,
+				E12195A423C85A2800575D0E /* YLPermenantThreadUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E121958023C85A2500575D0E /* YLAutoThread */ = {
+		E121958023C85A2500575D0E /* YLPermenantThread */ = {
 			isa = PBXGroup;
 			children = (
 				E121958123C85A2500575D0E /* AppDelegate.h */,
@@ -115,8 +118,10 @@
 				E121958F23C85A2800575D0E /* LaunchScreen.storyboard */,
 				E121959223C85A2800575D0E /* Info.plist */,
 				E121959323C85A2800575D0E /* main.m */,
+				E12195B623C85A3B00575D0E /* YLPermenantThread.h */,
+				E12195B723C85A3B00575D0E /* YLPermenantThread.m */,
 			);
-			path = YLAutoThread;
+			path = YLPermenantThread;
 			sourceTree = "<group>";
 		};
 		E121959C23C85A2800575D0E /* YLAutoThreadTests */ = {
@@ -140,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E121957D23C85A2500575D0E /* YLAutoThread */ = {
+		E121957D23C85A2500575D0E /* YLPermenantThread */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E12195AD23C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLAutoThread" */;
+			buildConfigurationList = E12195AD23C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLPermenantThread" */;
 			buildPhases = (
 				E121957A23C85A2500575D0E /* Sources */,
 				E121957B23C85A2500575D0E /* Frameworks */,
@@ -152,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = YLAutoThread;
+			name = YLPermenantThread;
 			productName = YLAutoThread;
-			productReference = E121957E23C85A2500575D0E /* YLAutoThread.app */;
+			productReference = E121957E23C85A2500575D0E /* YLPermenantThread.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E121959823C85A2800575D0E /* YLAutoThreadTests */ = {
+		E121959823C85A2800575D0E /* YLPermenantThreadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E12195B023C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLAutoThreadTests" */;
+			buildConfigurationList = E12195B023C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLPermenantThreadTests" */;
 			buildPhases = (
 				E121959523C85A2800575D0E /* Sources */,
 				E121959623C85A2800575D0E /* Frameworks */,
@@ -170,14 +175,14 @@
 			dependencies = (
 				E121959B23C85A2800575D0E /* PBXTargetDependency */,
 			);
-			name = YLAutoThreadTests;
+			name = YLPermenantThreadTests;
 			productName = YLAutoThreadTests;
-			productReference = E121959923C85A2800575D0E /* YLAutoThreadTests.xctest */;
+			productReference = E121959923C85A2800575D0E /* YLPermenantThreadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E12195A323C85A2800575D0E /* YLAutoThreadUITests */ = {
+		E12195A323C85A2800575D0E /* YLPermenantThreadUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E12195B323C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLAutoThreadUITests" */;
+			buildConfigurationList = E12195B323C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLPermenantThreadUITests" */;
 			buildPhases = (
 				E12195A023C85A2800575D0E /* Sources */,
 				E12195A123C85A2800575D0E /* Frameworks */,
@@ -188,9 +193,9 @@
 			dependencies = (
 				E12195A623C85A2800575D0E /* PBXTargetDependency */,
 			);
-			name = YLAutoThreadUITests;
+			name = YLPermenantThreadUITests;
 			productName = YLAutoThreadUITests;
-			productReference = E12195A423C85A2800575D0E /* YLAutoThreadUITests.xctest */;
+			productReference = E12195A423C85A2800575D0E /* YLPermenantThreadUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E121957923C85A2500575D0E /* Build configuration list for PBXProject "YLAutoThread" */;
+			buildConfigurationList = E121957923C85A2500575D0E /* Build configuration list for PBXProject "YLPermenantThread" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E121957D23C85A2500575D0E /* YLAutoThread */,
-				E121959823C85A2800575D0E /* YLAutoThreadTests */,
-				E12195A323C85A2800575D0E /* YLAutoThreadUITests */,
+				E121957D23C85A2500575D0E /* YLPermenantThread */,
+				E121959823C85A2800575D0E /* YLPermenantThreadTests */,
+				E12195A323C85A2800575D0E /* YLPermenantThreadUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,6 +276,7 @@
 				E121958323C85A2500575D0E /* AppDelegate.m in Sources */,
 				E121959423C85A2800575D0E /* main.m in Sources */,
 				E121958623C85A2500575D0E /* SceneDelegate.m in Sources */,
+				E12195B823C85A3B00575D0E /* YLPermenantThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		E121959B23C85A2800575D0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E121957D23C85A2500575D0E /* YLAutoThread */;
+			target = E121957D23C85A2500575D0E /* YLPermenantThread */;
 			targetProxy = E121959A23C85A2800575D0E /* PBXContainerItemProxy */;
 		};
 		E12195A623C85A2800575D0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E121957D23C85A2500575D0E /* YLAutoThread */;
+			target = E121957D23C85A2500575D0E /* YLPermenantThread */;
 			targetProxy = E12195A523C85A2800575D0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,13 +447,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4MB2B6UD3;
-				INFOPLIST_FILE = YLAutoThread/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YLPermenantThread/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.liang.YLAutoThread;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YLPermenantThread;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,13 +464,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4MB2B6UD3;
-				INFOPLIST_FILE = YLAutoThread/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YLPermenantThread/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.liang.YLAutoThread;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YLPermenantThread;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -485,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liang.YLAutoThreadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLAutoThread.app/YLAutoThread";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLPermenantThread.app/YLPermenantThread";
 			};
 			name = Debug;
 		};
@@ -505,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liang.YLAutoThreadTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLAutoThread.app/YLAutoThread";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLPermenantThread.app/YLPermenantThread";
 			};
 			name = Release;
 		};
@@ -548,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E121957923C85A2500575D0E /* Build configuration list for PBXProject "YLAutoThread" */ = {
+		E121957923C85A2500575D0E /* Build configuration list for PBXProject "YLPermenantThread" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E12195AB23C85A2800575D0E /* Debug */,
@@ -557,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E12195AD23C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLAutoThread" */ = {
+		E12195AD23C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLPermenantThread" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E12195AE23C85A2800575D0E /* Debug */,
@@ -566,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E12195B023C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLAutoThreadTests" */ = {
+		E12195B023C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLPermenantThreadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E12195B123C85A2800575D0E /* Debug */,
@@ -575,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E12195B323C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLAutoThreadUITests" */ = {
+		E12195B323C85A2800575D0E /* Build configuration list for PBXNativeTarget "YLPermenantThreadUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E12195B423C85A2800575D0E /* Debug */,
