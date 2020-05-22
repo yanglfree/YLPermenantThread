@@ -29,7 +29,6 @@
                        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
                    }
         }];
-        [self.thread start];
     }
     return self;
 }
@@ -48,6 +47,12 @@
     self.stopped = YES;
     CFRunLoopStop(CFRunLoopGetCurrent());
     self.thread = nil;
+}
+
+- (void)run
+{
+    if(!self.thread) return;
+    [self.thread start];  
 }
 
 /**
