@@ -22,6 +22,8 @@ typedef void(^ThreadExcutedTask)(void);
  */
 - (void)excuteTask:(ThreadExcutedTask)task;
 
+- (void)run;
+
 /**
  stop runloop
  */
