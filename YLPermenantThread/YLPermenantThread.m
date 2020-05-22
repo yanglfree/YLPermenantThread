@@ -55,7 +55,7 @@
  */
 - (void)excuteTask:(ThreadExcutedTask)task
 {
-    if (!self.thread) return;
+    if (!self.thread || !task) return;
     [self performSelector:@selector(doTask:) onThread:self.thread withObject:task waitUntilDone:NO];
 }
 
